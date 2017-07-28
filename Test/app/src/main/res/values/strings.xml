@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Test</string>
+    <string name="app_name">ziah</string>
+    <string name="perintah">Masukan minimal 3 huruf</string>
 </resources>
