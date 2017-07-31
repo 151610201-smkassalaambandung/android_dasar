@@ -57,5 +57,50 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent,0);
             }
         });
+
+        Button enam =(Button) findViewById(R.id.Button6);
+        enam.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View enamm){
+                Intent myIntent= new Intent(enamm.getContext(),Picker.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button tujuh =(Button) findViewById(R.id.Button7);
+        tujuh.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View tujuh){
+                Intent myIntent= new Intent(tujuh.getContext(),seleksi.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button delapan =(Button) findViewById(R.id.Button8);
+        delapan.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View delapan){
+                Intent myIntent= new Intent(delapan.getContext(),KotakDialog.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button sembilan =(Button) findViewById(R.id.Button9);
+        sembilan.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View sembilann){
+                Intent myIntent= new Intent(sembilann.getContext(),checkBox.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button semb =(Button) findViewById(R.id.Button10);
+        semb.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View sembb){
+                Intent myIntent= new Intent(sembb.getContext(),RadioButton.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
     }
 }

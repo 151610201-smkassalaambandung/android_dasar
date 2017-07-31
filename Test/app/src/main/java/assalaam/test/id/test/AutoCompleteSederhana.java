@@ -11,7 +11,9 @@ import android.widget.TextView;
 public class AutoCompleteSederhana extends AppCompatActivity implements TextWatcher {
     TextView hasil;
     AutoCompleteTextView edit;
-    String[]item = {"Merbabu","Merapi","Lawu","Rinjani","Sumbing","Sindoro","Krakatau","Selat Sunda","Selat Bali","Selat Malaka","Kalimantan","Sulawesi","Jawa"};
+    String[]item = {"Merbabu","Merapi","Lawu","Rinjani",
+            "Sumbing","Sindoro","Krakatau","Selat Sunda","Selat Bali",
+            "Selat Malaka","Kalimantan","Sulawesi","Jawa"};
 
 
     @Override

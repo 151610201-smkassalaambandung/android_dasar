@@ -1,4 +1,9 @@
 <resources>
+    <string name="hello">Fauziah Rahmi</string>
     <string name="app_name">ziah</string>
     <string name="perintah">Masukan minimal 3 huruf</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Applikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <string name="checkBox">checkBox ini : Tidak dicentang!</string>
 </resources>

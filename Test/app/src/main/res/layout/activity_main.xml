@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="fill_parent"
@@ -9,14 +9,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.test.id.test.MainActivity">
+    tools:context="assalaam.test.id.test.MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
 
     <Button
-    android:text="Linear Layout"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/Button1"
-    android:layout_alignParentTop="true" />
+        android:text="Linear Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button1"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="Layout Table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button3" />
 
     <Button
         android:text="Relative Layout"
@@ -26,21 +39,46 @@
         android:layout_alignParentTop="true" />
 
     <Button
-        android:text="Layout Table"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Button3" />
-
-    <Button
         android:text="Tampilan Gambar"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Button4" />
 
     <Button
         android:text="Auto Complette"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Button5" />
 
+    <Button
+        android:text="Picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button6" />
+
+    <Button
+        android:text="List View"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button7" />
+
+    <Button
+        android:text="Kotak Dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button8" />
+
+    <Button
+        android:text="Check Box"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button9" />
+
+    <Button
+        android:text="Radio Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button10" />
 </LinearLayout>
+
+</ScrollView>

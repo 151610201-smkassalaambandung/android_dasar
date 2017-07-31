@@ -20,7 +20,12 @@
         <activity android:name=".RelativeLayoutSederhana" />
         <activity android:name=".LayoutTabel" />
         <activity android:name=".TampilanGambar" />
-        <activity android:name=".AutoCompleteSederhana"></activity>
+        <activity android:name=".AutoCompleteSederhana" />
+        <activity android:name=".Picker" />
+        <activity android:name=".seleksi" />
+        <activity android:name=".KotakDialog" />
+        <activity android:name=".checkBox" />
+        <activity android:name=".RadioButton"></activity>
     </application>
 
 </manifest>
