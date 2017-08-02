@@ -102,5 +102,32 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent,0);
             }
         });
+
+        Button a =(Button) findViewById(R.id.Button11);
+        a.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View aa){
+                Intent myIntent= new Intent(aa.getContext(),playingAudio.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button b =(Button) findViewById(R.id.Button12);
+        b.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bb){
+                Intent myIntent= new Intent(bb.getContext(),CallActivity.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button c =(Button) findViewById(R.id.Button13);
+        c.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View cc){
+                Intent myIntent= new Intent(cc.getContext(),CallActivity2.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
     }
 }

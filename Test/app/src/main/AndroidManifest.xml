@@ -25,7 +25,19 @@
         <activity android:name=".seleksi" />
         <activity android:name=".KotakDialog" />
         <activity android:name=".checkBox" />
-        <activity android:name=".RadioButton"></activity>
+        <activity android:name=".RadioButton" />
+        <activity android:name=".playingAudio" />
+        <activity android:name=".CallActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CallActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN3"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
