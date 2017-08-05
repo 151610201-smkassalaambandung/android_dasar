@@ -24,7 +24,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Button1"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        />
 
         <Button
             android:text="Relative Layout"
@@ -98,6 +99,23 @@
         android:layout_height="wrap_content"
         android:id="@+id/Button11" />
 
+        <Button
+            android:text="Kalkulator Berat Badan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button14" />
+
+        <Button
+            android:text="Web View"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button15" />
+
+        <Button
+            android:text="Camera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button16" />
 
 
 </LinearLayout>

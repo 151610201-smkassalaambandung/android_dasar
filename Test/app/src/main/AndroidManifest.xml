@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="assalaam.test.id.test">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,17 +32,19 @@
         <activity android:name=".checkBox" />
         <activity android:name=".RadioButton" />
         <activity android:name=".playingAudio" />
-        <activity android:name=".CallActivity" >
+        <activity android:name=".CallActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN2"/>
+                <action android:name="android.intent.action.MAIN2" />
             </intent-filter>
         </activity>
-
         <activity android:name=".CallActivity2">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN3"/>
+                <action android:name="android.intent.action.MAIN3" />
             </intent-filter>
         </activity>
+        <activity android:name=".KalkulatorBeratBadan" />
+        <activity android:name=".webv" />
+        <activity android:name=".cameraa"></activity>
     </application>
 
 </manifest>

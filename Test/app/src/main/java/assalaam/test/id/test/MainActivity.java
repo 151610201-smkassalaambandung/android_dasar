@@ -129,5 +129,32 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent,0);
             }
         });
+
+        Button d =(Button) findViewById(R.id.Button14);
+        d.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View dd){
+                Intent myIntent= new Intent(dd.getContext(),KalkulatorBeratBadan.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button e =(Button) findViewById(R.id.Button15);
+        e.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View ee){
+                Intent myIntent= new Intent(ee.getContext(),webv.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        Button f =(Button) findViewById(R.id.Button16);
+        f.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View ff){
+                Intent myIntent= new Intent(ff.getContext(),cameraa.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
     }
 }
