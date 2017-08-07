@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="permainan.com.permainananak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pilihan" />
+        <activity android:name=".Info" />
+        <activity android:name=".Web" />
+        <activity android:name=".BalapKarung" />
+        <activity android:name=".Sejarahbk" />
+        <activity android:name=".CaraBermainbk" />
+        <activity android:name=".BolaBekel" />
+        <activity android:name=".Sejarahbb" />
+        <activity android:name=".CaraBermainbb" />
+        <activity android:name=".Congklak" />
+        <activity android:name=".Egrang" />
+        <activity android:name=".Engklek" />
+        <activity android:name=".Gasing" />
+        <activity android:name=".Kelereng" />
+        <activity android:name=".LayangLayang" />
+        <activity android:name=".LompatTali" />
+        <activity android:name=".PetakUmpet"></activity>
+    </application>
+
+</manifest>

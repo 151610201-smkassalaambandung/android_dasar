@@ -11,7 +11,6 @@ import android.widget.ImageButton;
 import android.view.View;
 import android.hardware.Camera;
 import android.hardware.Camera.Parameters;
-import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 
 
