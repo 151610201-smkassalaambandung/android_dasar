@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_sejarahbk"
     android:layout_width="match_parent"
@@ -9,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
     tools:context="permainan.com.permainananak.Sejarahbk">
     <LinearLayout
         android:layout_width="fill_parent"
@@ -21,22 +21,22 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:fontFamily="cursive"
+        android:textColor="#FF000000"
         android:id="@+id/textView4" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bk"
-        android:id="@+id/imageView2"
-        android:layout_below="@+id/textView4"
-        android:layout_centerHorizontal="true" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bkk"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Perlu kamu ketahui bahwa permainan ini sudah ada sejak dahulu bahkan ada yang mengatakan permainan ini ada sejak zaman Indonesia masih di jajah oleh Belanda. Permainan ini dibuat oleh misionaris Belanda yang biasanya digelar saat ada acara-acara perayaan Belanda.
-
-Sejak dulu permainan ini sering dimainkan oleh anak sekolah yang berumur 6-12 tahun, lalu menjadi populer dan dimainkan oleh anak-anak desa. Di Indonesia sendiri, permainan ini dimainkan saat ada acara-acara tradisional, yang awalnya hanya anak-anak desa saja yang memainkan tapi makin lama menyebar ke seluruh pelosok negeri."
+        android:text="\n\n      Perlu kamu ketahui bahwa permainan ini sudah ada sejak dahulu bahkan ada yang mengatakan permainan ini ada sejak zaman Indonesia masih di jajah oleh Belanda. Permainan ini dibuat oleh misionaris Belanda yang biasanya digelar saat ada acara-acara perayaan Belanda.\n\n       Sejak dulu permainan ini sering dimainkan oleh anak sekolah yang berumur 6-12 tahun, lalu menjadi populer dan dimainkan oleh anak-anak desa. Di Indonesia sendiri, permainan ini dimainkan saat ada acara-acara tradisional, yang awalnya hanya anak-anak desa saja yang memainkan tapi makin lama menyebar ke seluruh pelosok negeri."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
+        android:textColor="#FF000000"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

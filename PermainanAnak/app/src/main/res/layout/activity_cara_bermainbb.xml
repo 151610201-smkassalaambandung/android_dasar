@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
     tools:context="permainan.com.permainananak.CaraBermainbb">
 
     <LinearLayout
@@ -21,6 +22,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:fontFamily="cursive"
+            android:textColor="#FF000000"
             android:id="@+id/textView4" />
         <ImageView
             android:layout_width="wrap_content"
@@ -30,18 +32,19 @@
             android:layout_below="@+id/textView4"
             android:layout_centerHorizontal="true" />
         <TextView
-            android:text="1.Alat yang digunakan dalam permainan ini adalah bola bekel serta 10 biji kuwuk.
-2.Pemain terdiri dari 3 sampai 5 orang anak.
-3.Duduklah dan Buatlah lingkaran atau menyerupai lingkaran yang nanti bola bekel dan kuwuk berada di tengah, pemainpun memainkannya di tengah atau di depannya.
-4.Permainan dimulai oleh satu orang pemain dan yang lainnya mengamati, pemain akan bergantian setelah pemain yang sedang bermain melanggar peraturan.
-5.Peraturan disepakati di awal permainan.
-6.Gengam biji kuwuk dan peganglah bola bekel menggunakan jari telunjuk dan ibu jari, dipegang di satu tangan yang sama.
-7.Lemparkan bola bekel ke atas dan jatuhkan semua biji, lalu setelah bola bekel memantul tangkaplah kembali bola bekel.
-8.Lempar kembali bola bekel, sebelum bola bekel memantul ambilah satu biji kuwuk lalu tangkap kembali bola bekel.
+            android:text="\n\n1.Alat yang digunakan dalam permainan ini adalah bola bekel serta 10 biji kuwuk.\n\n
+2.Pemain terdiri dari 3 sampai 5 orang anak.\n\n
+3.Duduklah dan Buatlah lingkaran atau menyerupai lingkaran yang nanti bola bekel dan kuwuk berada di tengah, pemainpun memainkannya di tengah atau di depannya.\n\n
+4.Permainan dimulai oleh satu orang pemain dan yang lainnya mengamati, pemain akan bergantian setelah pemain yang sedang bermain melanggar peraturan.\n\n
+5.Peraturan disepakati di awal permainan.\n\n
+6.Gengam biji kuwuk dan peganglah bola bekel menggunakan jari telunjuk dan ibu jari, dipegang di satu tangan yang sama.\n\n
+7.Lemparkan bola bekel ke atas dan jatuhkan semua biji, lalu setelah bola bekel memantul tangkaplah kembali bola bekel.\n\n
+8.Lempar kembali bola bekel, sebelum bola bekel memantul ambilah satu biji kuwuk lalu tangkap kembali bola bekel.\n\n
 9.Begitu seterusnya hingga biji kuwuk sudah diambil semua lalu, dibabak ke dua ambil dua biji kuwuk dalam satu lemparan, begitu seterusnya."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
+            android:textColor="#ff000000"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

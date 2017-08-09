@@ -7,6 +7,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="permainan.com.permainananak.CaraBermainbk">
     <LinearLayout
@@ -20,28 +21,27 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:fontFamily="cursive"
+        android:textColor="#FF000000"
         android:id="@+id/textView4" />
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bk"
+        android:background="@drawable/bkk"
         android:id="@+id/imageView2"
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="1.Permainan ini dimainkan oleh dua tim yang masing-masing beranggotakan 4-5 pemain.
-        2.Permainan ini menggunakan alat pecahan genting yang nantinya akan disusun ke atas dengan jumlah 7-10 pecahan.
-        3.Selain pecahan genting bola kasti juga menjadi alat dalam permainan ini, jika tidak ada biasa diakali dengan membuat bola yang terbuat dari kertas yang di buat seperti bentuk bola dan diikat dengan karet gelang.
-        4.Tip pertama bertugas sebagai penyusun pecahan genting dan tim kedua bertugas sebagai penghancur genting dengan cara melemparkan bola kasti.
-        5.Permainan berawal dari tim penghancur genting melemparkan bolanya ke arah susunan genting dengan cara di gelindingkan.
-        6.Jika susunan genting hancur maka tim penyusun bertugas menyusun kembali genting, sambil menghindari bola yang terus dilemparkan ke arahnya.
-        7.Jika pemain terkena bola maka gugur dan jika pemain dari tim penghancur tidak mengenai sasaran genting maka akan gugur juga.
-        8.Permainan berakhir jika susunan genting kembali tersusun atau pemain yang berada di satu tim gugur semua.
-        9.Setelah itu tugas kelompok ditukar atau bergantian."
+        android:text="\n\n1.Buatlah garis awal dan akhir dengan jarak 7-10 meter.\n\n
+2.Gunakan karung sampai menutupi semua bagian kaki.\n\n
+3.Berjalan dengan melompat dan cepat untuk mencapai garis akhir.\n\n
+4.Siapa yang tercepat sampai ke garis akhir dialah pemenangnya.\n\n
+5.Peserta terdiri dari 3 sampai 6 orang.\n\n
+6.Permainan bisa dengan kerja tim atau sendirian."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
+        android:textColor="#FF000000"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

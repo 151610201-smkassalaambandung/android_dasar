@@ -9,6 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/h"
     tools:context="permainan.com.permainananak.Home">
 
 
@@ -32,23 +33,25 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="16dp" />
 
-    <Button
-        android:text="Mulai"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/mulai"
-        android:layout_above="@+id/assalaam"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="123dp" />
-
     <TextView
-        android:text="Macam-macam Permainan Tradisional Indonesia"
+        android:text="MACAM-MACAM PERMAINAN TRADISIONAL\n                             INDONESIA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
+        android:fontFamily="cursive"
+        android:textColor="#FF000000"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp" />
+
+    <Button
+        android:text="Mulai"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mulai"
+        android:background="@drawable/home"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

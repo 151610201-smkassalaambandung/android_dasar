@@ -9,14 +9,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/zz"
     tools:context="permainan.com.permainananak.Pilihan">
 
-    <TextView
-        android:text="PILIHAN PERMAINAN"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:fontFamily="cursive"/>
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
@@ -27,64 +22,92 @@
 
     <Button
         android:text="Balap Karung"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button1" />
 
     <Button
         android:text="Bola Bekel"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button2" />
 
     <Button
         android:text="Congklak"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button3" />
 
     <Button
         android:text="Egrang"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button4" />
 
     <Button
         android:text="Engklek"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button5" />
 
     <Button
         android:text="Gasing"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button6" />
 
     <Button
         android:text="Kelereng"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button7" />
 
     <Button
         android:text="Layang-layang"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button8" />
 
     <Button
         android:text="Lompat Tali"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button9" />
 
     <Button
         android:text="Petak Umpet"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ff000000"
+        android:background="@drawable/pl"
         android:id="@+id/button10" />
         </LinearLayout>
     </ScrollView>
-    </LinearLayout>
+
+    <TextView
+        android:text="PILIHAN PERMAINAN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ff000000"
+        android:fontFamily="cursive"/>
+</LinearLayout>
 

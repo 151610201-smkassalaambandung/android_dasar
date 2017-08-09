@@ -31,7 +31,23 @@
         <activity android:name=".Kelereng" />
         <activity android:name=".LayangLayang" />
         <activity android:name=".LompatTali" />
-        <activity android:name=".PetakUmpet"></activity>
+        <activity android:name=".PetakUmpet" />
+        <activity android:name=".CaraBermainc" />
+        <activity android:name=".Sejarahc" />
+        <activity android:name=".Sejarahe" />
+        <activity android:name=".CaraBermaine" />
+        <activity android:name=".Sejarahen" />
+        <activity android:name=".CaraBermainen" />
+        <activity android:name=".Sejarahg" />
+        <activity android:name=".CaraBermaing" />
+        <activity android:name=".Sejarahk" />
+        <activity android:name=".CaraBermaink" />
+        <activity android:name=".Sejarahll" />
+        <activity android:name=".CaraBermainll" />
+        <activity android:name=".Sejarahlt" />
+        <activity android:name=".Sejaeahpu" />
+        <activity android:name=".CaraBermainlt" />
+        <activity android:name=".CaraBermainpu"></activity>
     </application>
 
 </manifest>

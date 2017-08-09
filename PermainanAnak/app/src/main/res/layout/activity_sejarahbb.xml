@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
     tools:context="permainan.com.permainananak.Sejarahbb">
 
     <LinearLayout
@@ -21,10 +22,11 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:fontFamily="cursive"
+            android:textColor="#ff000000"
             android:id="@+id/textView4" />
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/bb"
             android:id="@+id/imageView2"
@@ -32,12 +34,11 @@
             android:layout_centerHorizontal="true" />
 
         <TextView
-            android:text="Permainan tradisional yang satu ini berasal dari Jawa Barat ada juga yang mengatakan dari Jawa Timur, permainan ini dulunya hanya dijadikan kegiatan mengisi waktu kekosongan yang ada, tapi sekarang permainan ini dijadikan hiburan bagi anak-anak pedesaan khususnya anak-anak perempuan.
-
-Seperti halnya permainan boi-boian permainan ini tidak memiliki catatan sejarah yang baik, tapi walaupun begitu permainan ini masih bisa kita temui sampai saat ini meskipun sudah sangat jarang."
+            android:text="\n\n      Permainan tradisional yang satu ini berasal dari Jawa Barat ada juga yang mengatakan dari Jawa Timur, permainan ini dulunya hanya dijadikan kegiatan mengisi waktu kekosongan yang ada, tapi sekarang permainan ini dijadikan hiburan bagi anak-anak pedesaan khususnya anak-anak perempuan.\n\n        Seperti halnya permainan boi-boian permainan ini tidak memiliki catatan sejarah yang baik, tapi walaupun begitu permainan ini masih bisa kita temui sampai saat ini meskipun sudah sangat jarang."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
+            android:textColor="#ff000000"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />

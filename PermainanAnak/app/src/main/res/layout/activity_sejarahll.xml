@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarahll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="permainan.com.permainananak.Sejarahll">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="SEJARAH LAYANG-LAYANG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:textColor="#FF000000"
+            android:id="@+id/textView4" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:background="@drawable/l"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="\n\n      Permainan ini sudah ada di Cina tahun 2500 Sebelum Masehi. DI Indonesia sendiri permainan ini di temukan pada awal abad ke-21, penemuan ini dibuktikan dengan lukisan yang ditemukan di gua Pulau Muna provinsi Sulawesi Tenggara.\n\n        Awal mulanya permainan layang-layang di Indonesia ada juga yang berpendapat sudah aja sejak abad ke-17 yang berasal dari catatan sejarah melayu, tentang kerajaan yang mengikuti festival layang-layang."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#FF000000"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+
+</ScrollView>
